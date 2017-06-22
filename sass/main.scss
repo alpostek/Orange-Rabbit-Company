@@ -405,10 +405,6 @@ form {
 		white-space: nowrap;
 	}
 
-}
-
-@media screen and (max-width: 735px) {
-
 	.col-4{
 		width: 100%;
 		float: none;
@@ -423,6 +419,10 @@ form {
 	.col-3 p{
 		font-size: 1rem;
 	}
+
+}
+
+@media screen and (max-width: 740px) {
 
 .burger-nav{
 	background: url(img/hamburger.png) no-repeat 100% center;
