@@ -71,6 +71,10 @@ $main_orange: #fb9c06;
 	overflow: hidden;
 }
 
+html{
+	font-size: 16px;
+}
+
 //menu//
 .menu{
 	@include orange_line;
@@ -150,7 +154,7 @@ $main_orange: #fb9c06;
 
 .openOption{
 	color: $main_orange;
-	font-size: 15px;
+	font-size: 1rem;
 }
 
 //slider
@@ -158,7 +162,7 @@ $main_orange: #fb9c06;
 	@include orange_line;
 	background-image: url("img/background_orange.png");
 	font-family: "BebasNeue";
-	font-size: 37px;
+	font-size: 2rem;
 	background-size: cover;
 	background-position: center;
 	font-weight: 700;
@@ -219,7 +223,7 @@ $main_orange: #fb9c06;
 .team_title{
 	@include thin_orange_line;
 	text-align: center;
-	font-size: 40px;
+	font-size: 3rem;
 	color: $main_orange;
 	font-family: 'Source Sans Pro', sans-serif;
 	font-weight: 200;
@@ -295,7 +299,7 @@ form {
 			background-color: $main_orange;
 			float: right;
 			font-family: "OpenSans", sans-serif;
-			font-size: 20px;
+			font-size: 1.5rem;
 			color: white;
 			padding-top: 10px;
 			padding-bottom: 5px;
@@ -358,7 +362,7 @@ form {
 
 .footer{
 	background-color: $main_orange;
-	font-size: 30px;
+	font-size: 2rem;
 	color: white;
 	text-align: center;
 	line-height: 30px;
@@ -405,7 +409,7 @@ form {
 	.col-4{
 		width: 100%;
 		float: none;
-		font-size: 20px;
+		font-size: 1.5rem;
 	}
 
 	.col-3{
@@ -462,7 +466,7 @@ form {
 
 @media screen and (max-width: 410px) {
 	.rabbit_div, .orange_div{
-		font-size: 25px;
+		font-size: 1.5rem;
 	}
 }
 
@@ -478,6 +482,6 @@ form {
 
 @media screen and (max-width: 320px) {
 	.rabbit_div, .orange_div{
-		font-size: 15px;
+		font-size: 1rem;
 	}
 }
